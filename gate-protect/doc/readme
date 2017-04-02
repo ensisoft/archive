@@ -1,0 +1,44 @@
+
+
+This is the calculator application
+
+1. build the calculator 
+  "make"
+
+2. run the application 
+   ./calc
+
+3. Enter expressions for evaluation
+
+  Expression: 5 + two
+  Result: 7
+
+  Expression: three hundred and ninety two multiplied with 7
+  Result: 2744
+
+
+RECOGNIZED OPERATORS
+
++
+plus
+increased by
+
+-
+minus
+decreased by
+
+*
+times
+multiplied by
+multiplied with
+
+/
+divided by
+
+
+KNOWN BUGS AND LIMITATIONS
+- no overflow checking
+
+
+Have fun
+

@@ -1,0 +1,5 @@
+
+
+project test ;
+
+exe test : unit_test.cpp  ../parser.cpp ;
