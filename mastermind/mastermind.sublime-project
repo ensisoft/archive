@@ -1,0 +1,10 @@
+{
+    "settings":
+    {
+        "sublimeclang_options":
+        [
+            "-std=c++11",
+            "-DSUBLIME_CLANG_WORKAROUNDS"
+        ]
+    }
+}
