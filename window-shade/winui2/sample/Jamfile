@@ -1,0 +1,27 @@
+
+#
+# winui2/sample/Jamfile
+#
+
+LIBS = gdi32 user32 shell32 comctl32 comdlg32 ;
+
+import rc ;
+
+project winui2-sample 
+    : requirements
+    <include>res
+    <user-interface>gui
+    <library>/winui2//winui2
+    <find-shared-library>$(LIBS)
+    ;
+    
+
+exe simple    : simple.cpp ;
+exe split     : split.cpp  ;
+exe sdi       : sdihello.cpp ;
+exe mdi       : mdihello.cpp ;
+exe pyramid   : open_gl_hello.cpp ;
+exe pyramid2  : open_gl_child.cpp  res/sample.rc ;
+exe tray      : tray.cpp res/sample.rc ;
+exe menu      : menu.cpp res/sample.rc ;
+exe hello     : hello.cpp res/sample.rc ;

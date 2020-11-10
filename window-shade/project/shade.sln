@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shade", "shade.vcproj", "{A69BE80C-C955-4C47-B660-A62C25263572}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libshade", "libshade.vcproj", "{9F87ECDA-C455-468E-BDC9-8F0F1B91940D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A69BE80C-C955-4C47-B660-A62C25263572}.Debug.ActiveCfg = Debug|Win32
+		{A69BE80C-C955-4C47-B660-A62C25263572}.Debug.Build.0 = Debug|Win32
+		{A69BE80C-C955-4C47-B660-A62C25263572}.Release.ActiveCfg = Release|Win32
+		{A69BE80C-C955-4C47-B660-A62C25263572}.Release.Build.0 = Release|Win32
+		{9F87ECDA-C455-468E-BDC9-8F0F1B91940D}.Debug.ActiveCfg = Debug|Win32
+		{9F87ECDA-C455-468E-BDC9-8F0F1B91940D}.Debug.Build.0 = Debug|Win32
+		{9F87ECDA-C455-468E-BDC9-8F0F1B91940D}.Release.ActiveCfg = Release|Win32
+		{9F87ECDA-C455-468E-BDC9-8F0F1B91940D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+
+
+#
+# winui2/Jamfile
+#
+
+project winui2 : usage-requirements  <include>. ;
+
+lib winui2 : [ glob *.cpp ] : <link>static ;
+
+
+build-project sample ;
+    
+    
